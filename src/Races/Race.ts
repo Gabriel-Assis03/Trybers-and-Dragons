@@ -9,7 +9,7 @@ export default abstract class Race {
   }
 
   get dexterity(): number {
-    return this._dexterity;
+    return this.dexterity;
   }
   
   static createdRacesInstances(): number {
